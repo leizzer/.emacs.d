@@ -16,8 +16,3 @@
 
 (package-initialize)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-
-(add-to-list 'auto-mode-alist
-	   "*" . auto-complete-mode))
-
-
