@@ -32,4 +32,7 @@
 (add-hook 'ruby-mode-hook 'auto-complete-mode)
 (add-hook 'css-mode-hook 'auto-complete-mode)
 (add-hook 'sass-mode-hook 'auto-complete-mode)
+(add-hook 'haml-mode-hook 'auto-complete-mode)
+(add-hook 'yaml-mode-hook 'auto-complete-mode)
+
 
