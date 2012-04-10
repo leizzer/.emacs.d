@@ -23,9 +23,13 @@
 (require 'auto-complete)
 (require 'yaml-mode)
 
+;; Hook for Ruby-end minor mode
+(add-hook 'ruby-mode-hook 'ruby-end-mode)
+
 ;; Hooks for Auto Complete minor mode
 (add-hook 'emacs-lisp-mode-hook 'auto-complete-mode)
+(add-hook 'html-mode-hook 'auto-complete-mode)
 (add-hook 'ruby-mode-hook 'auto-complete-mode)
 (add-hook 'css-mode-hook 'auto-complete-mode)
 (add-hook 'sass-mode-hook 'auto-complete-mode)
-(add-hook 'html-mode 'auto-complete-mode)
+
