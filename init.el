@@ -3,9 +3,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(css-indent-offset 2)
  '(custom-enabled-themes (quote (misterioso)))
+ '(electric-indent-mode t)
  '(electric-pair-mode t)
  '(ido-mode (quote both) nil (ido))
+ '(indent-tabs-mode nil)
+ '(js-indent-level 2)
+ '(ruby-indent-tabs-mode nil)
+ '(tab-width 2)
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
 (custom-set-faces
@@ -14,7 +20,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
 
 ;; Marmalade Repository
 (package-initialize)
@@ -35,3 +40,12 @@
 (add-hook 'sass-mode-hook 'auto-complete-mode)
 (add-hook 'haml-mode-hook 'auto-complete-mode)
 (add-hook 'yaml-mode-hook 'auto-complete-mode)
+
+;; Adding Vendor Padh (no elpa files)
+(add-to-list 'load-path "~/.emacs.d/vendor")
+
+;; Control-lock
+;; Require the code
+(require 'control-lock)
+;; Make C-z turn on control lock
+(control-lock-keys)
