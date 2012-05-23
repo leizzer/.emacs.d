@@ -57,6 +57,6 @@
 ;; My macros
 ;; Kill current word
 (fset 'kill-current-word
-   [?\M-b ?\C-  ?\M-f ?\C-w])
+   [?\M-f ?\C-  ?\M-b ?\C-w])
 
 (global-set-key (kbd "M-d") 'kill-current-word)
