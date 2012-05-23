@@ -41,6 +41,10 @@
 (add-hook 'haml-mode-hook 'auto-complete-mode)
 (add-hook 'yaml-mode-hook 'auto-complete-mode)
 
+;; Turning on subword-mode
+;; It can detect subwords in camelcase
+(global-subword-mode 1)
+
 ;; Adding Vendor Padh (no elpa files)
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
@@ -49,3 +53,4 @@
 (require 'control-lock)
 ;; Make C-z turn on control lock
 (control-lock-keys)
+
