@@ -54,3 +54,9 @@
 ;; Make C-z turn on control lock
 (control-lock-keys)
 
+;; My macros
+;; Kill current word
+(fset 'kill-current-word
+   [?\M-b ?\C-  ?\M-f ?\C-w])
+
+(global-set-key (kbd "M-d") 'kill-current-word)
