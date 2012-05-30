@@ -29,6 +29,9 @@
 (require 'auto-complete)
 (require 'yaml-mode)
 
+;; Hook before save delete trailing white spaces
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;; Hook for Ruby-end minor mode
 (add-hook 'ruby-mode-hook 'ruby-end-mode)
 
@@ -53,10 +56,3 @@
 (require 'control-lock)
 ;; Make C-z turn on control lock
 (control-lock-keys)
-
-;; My macros
-;; Kill current word
-(fset 'kill-current-word
-   [?\M-f ?\C-  ?\M-b ?\C-w])
-
-(global-set-key (kbd "M-d") 'kill-current-word)

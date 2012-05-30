@@ -1,4 +1,20 @@
-((("kill-current-word" .
+((("remove" .
+   [1 0 0 0 0 0])
+  ("parent" .
+   [1 0 0 0 0 0])
+  ("preventDefault" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("ev" .
+   [1 0])
+  (":presence" .
+   [0 0 0 0 0 0 1 0 0])
+  ("validates" .
+   [0 0 0 0 0 1 0 0 0])
+  (":album_id" .
+   [2 0 0 0 0 0 0 0 0])
+  (":songs" .
+   [1 0 0 0 0 0])
+  ("kill-current-word" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("subword-mode" .
    [1 0 0 0 0 0 0 0 0 0 0 0])
@@ -57,7 +73,7 @@
   ("hidden_field_tag" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("%=" .
-   [5 0])
+   [7 0])
   ("else" .
    [1 0 0 0])
   ("user" .
@@ -69,7 +85,7 @@
   ("inspect" .
    [2 0 0 0 0 0 0])
   ("params" .
-   [4 0 0 0 0 0])
+   [8 0 0 0 0 0])
   ("Empresa" .
    [1 0 0 0 0 0 0])
   ("vencimiento" .
@@ -119,7 +135,7 @@
   ("Documento:" .
    [1 0 0 0 0 0 0 0 0 0])
   ("/div" .
-   [3 0 0 0])
+   [6 0 0 0])
   ("u" .
    [1])
   ("update_attributes" .
@@ -149,7 +165,7 @@
   ("current_user.admin_group" .
    [1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("end" .
-   [1 0 0])
+   [2 0 0])
   ("permit" .
    [1 0 0 0 0 0])
   ("'clients'" .
@@ -191,4 +207,40 @@
   ("asdfasdf" .
    [1 0 0 0 0 0 0 0])
   ("asdf" .
-   [2 0 0 0])))
+   [2 0 0 0])
+  ("establishment" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("create" .
+   [3 0 0 0 0 0])
+  (":establishment_qualities" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  (":value_id" .
+   [1 0 0 1 0 0 0 0 0])
+  (":qualit" .
+   [0 0 0 0 0 0 1])
+  ("debugger" .
+   [1 0 0 0 0 0 0 0])
+  (":quality_value" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("establishment.establishment_qualities" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("div" .
+   [1 0 0])
+  ("class=" .
+   [1 0 0 0 0 0])
+  ("select_tag" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("options_for_select" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  (":establishment" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":quality_values" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("|av|" .
+   [1 0 0 0])
+  ("av.name" .
+   [1 0 0 0 0 0 0])
+  ("av.id" .
+   [1 0 0 0 0])
+  ("new" .
+   [1 0 0])))
